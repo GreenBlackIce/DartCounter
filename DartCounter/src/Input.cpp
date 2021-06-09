@@ -34,3 +34,11 @@ const int Dart::Input::read3Int() const
 	}
 	return roundScore;
 }
+
+const std::string Dart::Input::readString() const
+{
+	std::string commandString;
+	std::cin >> commandString;
+
+	return commandString;
+}

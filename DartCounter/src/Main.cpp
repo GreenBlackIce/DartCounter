@@ -1,11 +1,9 @@
 #include "sqlite3.h"
-#include "GameController.h"
+#include "Entry.h"
 
 int main()
 {
-	//std::cout << "Enter Starting Score: ";
-	Dart::GameController gm(501);
-	int start = 501;
-	std::cout << gm.getCurrentScore();
+	Dart::Entry en;
+	en.Start();
 	return 0;
 }
